@@ -13,24 +13,16 @@
 #Optionally, remove files no longer needed:
 #	\rm -rf AtPEAT_read_processing*
 
-
-#Publication with Supplemental Data
-#
-#	http://www.plantcell.org/content/26/7/2746.long
-
-#Supplementary Materials
-#
-#	http://megraw.cgrb.oregonstate.edu/suppmats/3PEAT/
-#
+#Download peat.sorted.bam
 #	link to RAW BAM File:
 #		https://oregonstate.box.com/s/3lb3spmqbiuofhbubovc1z8bfthmxh6f
-#	=> download
+#	=> download (popup or at the bottom)
 #		peat.sorted.bam
 
-#AtPEAT_read_processing (relevant to TSR determination, not ML)
+#Download AtPEAT_read_processing (relevant to TSR determination, not ML)
 #
 #https://oregonstate.app.box.com/s/q3kvslxurfvtd7k0p71qttxwiifezbwk/folder/44720215456
-#	=> download
+#	=> download (to get the whole directory as a zip file, click the download button on top right of this page)
 #		AtPEAT_read_processing.zip
 
 mv ~/Downloads/peat.sorted.bam ./
@@ -39,3 +31,12 @@ mv ~/Downloads/AtPEAT_read_processing.zip ./
 unzip *zip
 gunzip -c AtPEAT_read_processing/raw_data/MT_1.fastq.gz > MT_1.fastq
 gunzip -c AtPEAT_read_processing/raw_data/MT_2.fastq.gz > MT_2.fastq
+
+#The following links are for your reference:
+#Publication with Supplemental Data
+#
+#	http://www.plantcell.org/content/26/7/2746.long
+
+#Supplementary Materials
+#
+#	http://megraw.cgrb.oregonstate.edu/suppmats/3PEAT/
